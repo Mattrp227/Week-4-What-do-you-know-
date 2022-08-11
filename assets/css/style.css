@@ -1,1 +1,47 @@
+header{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    border: blue 100px;
+}
+
+.timer {
+    color: rgb(24, 24, 83);
+    font-size: xx-large;
+    margin: 15px;
+
+}
+
+.highscores {
+    color: rgb(8, 8, 8);
+    justify-content: left;
+    font-size: 125%;
+    margin: 15px;
+
+}
+.firstpage {
+    display:flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.quiz {
+    display:flex;
+    justify-content: center;
+}
+
+#begin {
+    color: rgb(241, 210, 5);
+    font-size: 150%;
+    margin: 10px;
+
+}
+
+#highscores {
+    color: rgb(241, 210, 5);
+    font-size: large;
+    margin: 15px;
+
+}
+
 
