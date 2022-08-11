@@ -1,5 +1,5 @@
 
-//create variables for querey selector
+//create variables for query selector
 var timer = document.querySelector("#time");
 var Scores = document.querySelector("#highscores");
 var begin = document.querySelector("#begin");
@@ -34,6 +34,49 @@ var questions = [
         question:"question 3",
         answers: [
             "answer 1",
+            "answer 2",
+            "answer 3",
+        ],
+        correctAnswerIndex: 1,
+    },
+]
+
+
+// functions for buttons/event listeners
+
+Scores.addEventListener("click", listScores);
+begin.addEventListener("click", quizStart);
+
+
+//make the questions appear on the screen
+function quizStart () {
+    console.log("start");
+    beginTime();
+
+}
+
+
+//make scores appear
+
+
+
+//timer to start and countdown
+
+var timerEl = document.getElementById('timer');
+
+
+
+function beginTime () {
+    var clockTime = 100;
+    clockTime--;
+    var timeInterval = setInterval(function () {
+        clockTime--;
+        if (clockTime === 0) {
+            ;
+        }
+            
+ }    
+}
             "answer 2",
             "answer 3",
         ],
